@@ -9,7 +9,7 @@ using as little as 6 high-quality images (few-shot).
 
 This project aims to address the data deficiency problem for fish species, which is the main obstacle for Automatic species Identification Systems (AIS). A good AIS can provide insights on population, biodiversity, and migration patterns, which is essential for the conservation of the marine ecosystem as a whole. 
 
-These datasets and model weights are available [here](https://drive.google.com/drive/folders/1VCwr3p1J4BbkLUmc7vYvaqJ-qleGqUWQ?usp=sharing)
+The datasets and model weights are available [here](https://drive.google.com/drive/folders/1VCwr3p1J4BbkLUmc7vYvaqJ-qleGqUWQ?usp=sharing)
 
 See `QA.md` for more details.
 
