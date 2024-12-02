@@ -62,4 +62,3 @@ lightweight_gan --name <name-of-run> --load-from <checkpoint-num> --generate
 
 This project is only intended for research purposes only.
 
--- uplaod weights
