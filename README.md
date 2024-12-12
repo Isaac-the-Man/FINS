@@ -4,8 +4,8 @@
 
 Author: Yu-Kai "Steven" Wang, Jonathan Li, Lawrence Miao
 
-In this project we propose a GAN model specifically designed to generate a specific fish species in a wild background, 
-using as little as 6 high-quality images (few-shot).
+### Introduction
+In this project we propose a GAN model specifically designed to generate a specific fish species in a wild background, using as little as 6 high-quality images (few-shot).
 
 This project aims to address the data deficiency problem for fish species, which is the main obstacle for Automatic species Identification Systems (AIS). A good AIS can provide insights on population, biodiversity, and migration patterns, which is essential for the conservation of the marine ecosystem as a whole. 
 
@@ -14,7 +14,6 @@ The datasets and model weights are available [here](https://drive.google.com/dri
 See `QA.md` for more details.
 
 ### Dataset
-
 We cleaned a small subset of images (20 species) derived from the [Wildfish++ dataset](https://dl.acm.org/doi/10.1109/TMM.2020.3028482) for pretraining.
 
 For testing, we also curated a small dataset of the novel fish species *Sinocyclocheilus longicornus* (discovered in 2023).
@@ -61,4 +60,10 @@ lightweight_gan --name <name-of-run> --load-from <checkpoint-num> --generate
 ### Disclaimer
 
 This project is only intended for research purposes only.
+
+### Baseline Models
+Included in `src` are 3 additional models used during experimentation.
+1. [Deep Convolutional Generative Adversarial Network (DCGAN)](https://arxiv.org/pdf/1511.06434v2): Code adapted from https://github.com/eriklindernoren/PyTorch-GAN/blob/master/implementations/dcgan/dcgan.py
+2. [Denoising Diffusion Probabilistic Model (DDPM)](https://arxiv.org/pdf/2006.11239)
+3. [Text Guided Diffusion](https://huggingface.co/stabilityai/stable-diffusion-2-1-base)
 
